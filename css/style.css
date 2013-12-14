@@ -3,4 +3,22 @@
   text-align: center;
   font-family: "Press Start 2P"; }
   .heading h1 {
-    font-size: 3em; }
+    font-size: 3em;
+    text-shadow: -3px 3px #C51D31; }
+  .heading p {
+    text-shadow: -2px 2px #C51D31; }
+
+body {
+  background-color: #FBCC0C; }
+
+img {
+  position: relative;
+  z-index: 10; }
+  img:after {
+    content: "";
+    width: 32px;
+    height: 16px;
+    background-color: #C51D31;
+    position: absolute;
+    bottom: -8px;
+    left: 16px; }
