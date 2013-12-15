@@ -1,23 +1,2 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700|Press+Start+2P|Open+Sans:400italic,400,700);
 @import 'typography';
-
-
-
-body{
-  background-color: #FBCC0C;
-}
-
-img{
-  position: relative;
-  z-index: 10;
-  &:after{
-    content: "";
-    width: 32px;
-    height: 16px;
-    background-color: #C51D31;
-    position: absolute;
-    bottom: -8px;
-    left: 16px;
-
-  }
-}
