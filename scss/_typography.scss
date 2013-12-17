@@ -1,11 +1,23 @@
+/* -- TYPOGRAPHY -- */
+
+//Import google fonts
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic|Press+Start+2P);
 .heading{
   text-align: center;
-  font-family: "Press Start 2P";
-}
-
   h1{
     font-size: 3em;
   }
   p{
     font-size: 1em;
+    font-family: "Press Start 2P";
   }
+}
+
+h1,h2,h3,h4,h5,h6{
+  line-height: 1.2em;
+  font-family: "Press Start 2P";
+}
+
+p{
+  font-family: "Arvo";
+}

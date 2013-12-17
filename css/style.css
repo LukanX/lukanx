@@ -1,10 +1,28 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700|Press+Start+2P|Open+Sans:400italic,400,700);
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic|Press+Start+2P);
+.content {
+  max-width: 980px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  margin: auto;
+  margin-bottom: 20px; }
+
+/* -- TYPOGRAPHY -- */
 .heading {
-  text-align: center;
+  text-align: center; }
+  .heading h1 {
+    font-size: 3em; }
+  .heading p {
+    font-size: 1em;
+    font-family: "Press Start 2P"; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2em;
   font-family: "Press Start 2P"; }
 
-h1 {
-  font-size: 3em; }
-
 p {
-  font-size: 1em; }
+  font-family: "Arvo"; }
