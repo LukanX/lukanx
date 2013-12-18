@@ -8,6 +8,7 @@ $atari-brown: #56342B;
 $retro-yellow: #E6AC27;
 $near-black: #0E0300;
 $burned-orange: #BF4D28;
+$links: #0F8376;
 $ash: #655643;
 
 p{
@@ -20,5 +21,13 @@ h1,h2,h3,h4,h5,h6{
 
 body{
   background: $sea-blue;
+}
+
+a{
+  color: $links;
+  text-decoration: none;
+  &:hover{
+    color: rgba(15,131,118, .7)
+  }
 }
 
