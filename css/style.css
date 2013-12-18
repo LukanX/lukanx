@@ -68,7 +68,8 @@ html, body {
 .heading .pixel-container {
   width: 128px;
   height: 128px;
-  background: url(../images/pixel-lance.png) no-repeat center center, #9bc0af;
+  background: url(../images/pixel-lance.png) no-repeat center center, #fffedb;
+  border: 8px solid #9bc0af;
   border-radius: 50%;
   position: relative;
   margin: 10px auto 20px; }

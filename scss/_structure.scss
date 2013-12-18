@@ -7,7 +7,8 @@ html, body{
   .pixel-container{
     width: 128px;
     height: 128px;
-    background: url(../images/pixel-lance.png) no-repeat center center, $sea-blue;
+    background: url(../images/pixel-lance.png) no-repeat center center, $off-white;
+    border: 8px solid $sea-blue;
     border-radius: 50%;
     position: relative;
     margin: 10px auto 20px;
