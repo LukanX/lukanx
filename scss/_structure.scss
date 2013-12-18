@@ -19,6 +19,7 @@ html, body{
   width: 100%;
   &.top{
     background: $burned-orange;
+    border-bottom: 8px solid $retro-yellow;
     .content{
       background: transparent;
       margin-bottom: 0;

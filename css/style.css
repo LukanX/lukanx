@@ -77,7 +77,8 @@ html, body {
 .section {
   width: 100%; }
   .section.top {
-    background: #bf4d28; }
+    background: #bf4d28;
+    border-bottom: 8px solid #e6ac27; }
     .section.top .content {
       background: transparent;
       margin-bottom: 0; }
