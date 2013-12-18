@@ -5,19 +5,32 @@
 .heading{
   text-align: center;
   h1{
-    font-size: 3em;
+    font-size: 2.75em;
+    margin: 0;
   }
   p{
-    font-size: 1em;
     font-family: "Press Start 2P";
+    color: $retro-yellow;
   }
 }
 
 h1,h2,h3,h4,h5,h6{
-  line-height: 1.2em;
+  line-height: 1.5em;
   font-family: "Press Start 2P";
+}
+
+h1{
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+h2{
+  font-size: 1.5em;
+  margin: .25em 0;
 }
 
 p{
   font-family: "Arvo";
+  font-size: 1em;
+  line-height: 1.4em;
 }

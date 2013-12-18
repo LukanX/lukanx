@@ -1,28 +1,126 @@
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic|Press+Start+2P);
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* -- DEFAULT COLORS -- */
+p {
+  color: #0e0300; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f3af34; }
+
+body {
+  background: #9bc0af; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.heading .pixel-container {
+  width: 128px;
+  height: 128px;
+  background: url(../images/pixel-lance.png) no-repeat center center, #9bc0af;
+  border-radius: 50%;
+  position: relative;
+  margin: 10px auto 20px; }
+
+.section {
+  width: 100%; }
+  .section.top {
+    background: #56342b; }
+    .section.top .content {
+      background: transparent;
+      margin-bottom: 0; }
+
 .content {
-  max-width: 980px;
+  max-width: 800px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 20px 30px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
   margin: auto;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  background: #fffedb; }
+  .content.main-content {
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px; }
 
 /* -- TYPOGRAPHY -- */
 .heading {
   text-align: center; }
   .heading h1 {
-    font-size: 3em; }
+    font-size: 2.75em;
+    margin: 0; }
   .heading p {
-    font-size: 1em;
-    font-family: "Press Start 2P"; }
+    font-family: "Press Start 2P";
+    color: #f3af34; }
 
 h1, h2, h3, h4, h5, h6 {
-  line-height: 1.2em;
+  line-height: 1.5em;
   font-family: "Press Start 2P"; }
 
+h1 {
+  font-size: 2em;
+  margin: .67em 0; }
+
+h2 {
+  font-size: 1.5em;
+  margin: .25em 0; }
+
 p {
-  font-family: "Arvo"; }
+  font-family: "Arvo";
+  font-size: 1em;
+  line-height: 1.4em; }

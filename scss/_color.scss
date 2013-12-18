@@ -1,0 +1,22 @@
+/* -- DEFAULT COLORS -- */
+
+
+//Sass Color Variables
+$sea-blue: #9BC0AF;
+$off-white: #FFFEDB;
+$atari-brown: #56342B;
+$retro-yellow: #F3AF34;
+$near-black: #0E0300;
+
+p{
+  color: $near-black;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: $retro-yellow;
+}
+
+body{
+  background: $sea-blue;
+}
+
