@@ -8,7 +8,7 @@ html, body{
     width: 128px;
     height: 128px;
     background: url(../images/pixel-lance.png) no-repeat center center, $off-white;
-    border: 8px solid $retro-yellow;
+    border: 8px solid $sea-blue;
     border-radius: 50%;
     position: relative;
     margin: 10px auto 20px;
@@ -18,7 +18,7 @@ html, body{
 .section{
   width: 100%;
   &.top{
-    background: $atari-brown;
+    background: $burned-orange;
     .content{
       background: transparent;
       margin-bottom: 0;
