@@ -83,7 +83,7 @@ html, body {
 .section {
   width: 100%; }
   .section.top {
-    background: #bf4d28;
+    background: url(../images/worn1.png) repeat-x, url(../images/worn2.png) repeat-x, url(../images/worn3.png) repeat-x, #bf4d28;
     border-bottom: 8px solid #e6ac27; }
     .section.top .content {
       background: transparent;

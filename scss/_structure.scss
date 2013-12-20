@@ -18,7 +18,7 @@ html, body{
 .section{
   width: 100%;
   &.top{
-    background: $burned-orange;
+    background: url(../images/worn1.png) repeat-x, url(../images/worn2.png) repeat-x, url(../images/worn3.png) repeat-x, $burned-orange;
     border-bottom: 8px solid $retro-yellow;
     .content{
       background: transparent;
